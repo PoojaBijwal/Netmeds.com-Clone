@@ -1,0 +1,113 @@
+
+        *{
+           box-sizing: border-box;
+           margin: 0px;
+           /* background-color: #f3f7fb;  */
+         }
+         #top_bar{
+            width: 100%;
+            height: 100px;
+            background-color: #32aeb1;
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+            align-items: center;
+         }
+        #middle_bar{
+            display: flex;
+            width: 100%;
+            height: 50px; 
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        }
+        #middle_bar > p{
+            font-size: 13px;
+            font-family: sans-serif;
+        }
+        #Slider_1{
+            width: 100%;
+            height: 350px; 
+            padding: 20px;
+            /* border: 1px solid black; */
+        }
+        #Slider_1 > img{
+            width: 100%;
+            height: 100%;
+        }
+        #Slider_2{
+            width: 100%;
+            height: 250px; 
+            padding: 20px;
+            margin-top: 30px;
+            border: 1px solid black;  
+        }
+        #Payment_Partner_Offers{
+            display: flex;
+            width: 97%;
+            gap: 20px;
+            margin: auto;
+            
+            
+        }
+        .offer{
+            display: flex;
+            margin-top: 30px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            
+        }
+        
+        .offer_img > img{
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            margin-top: 10px;
+            
+        }
+        h4{
+            font-size: 12px;
+            font-family: sans-serif;
+            
+        }
+        h4+p{
+            font-size: 11px;
+            margin-top: 15px;
+            color:#8e8897;
+            font-family: sans-serif;
+           
+        }
+        h2{
+            margin-top: 25px;
+            font-family:sans-serif;
+        }
+        #Shop_By_Category{
+            display: flex;
+            width: 90%;
+            height: 300px;
+            gap: 20px;
+            margin: auto;
+            margin-top: 40px;
+        }
+        #Shop_By_Category>div{
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 10px;
+            padding: 40px;
+           
+        }
+        #Shop_By_Category>div>img{
+            width: 100%;
+            height: 180px;
+        }
+        img+h4{
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+       
+
+   
+    
