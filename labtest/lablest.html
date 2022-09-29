@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./lablest.css">
+</head>
+<body>
+    <div>
+        <div></div>
+        <div id="id">
+            <div class="id1"><img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1664362639_WhatsApp_Image_2022-09-27_at_21.11.12.jpg" alt=""> </div>
+            <div class="id1">
+                <div id="Detalesform">
+                    <div class="Pathology">
+                        <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/diagnostics/pathology.png" alt="">
+                        <p>Pathology</p>
+                    </div>
+                    <div class="Pathology">
+                        <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/diagnostics/radiology.png" alt="">
+                        <p>Radiology</p>
+                    </div>
+                </div>
+                <div id="detalesform">
+                    <p>Please fill in your details</p>
+                    <label for="">.     NAME</label>
+                    <input type="text" maxlength="50" name="diagnosis_name" class="input">
+                    <label for="">MOBILE NUMBER</label>
+                    <input type="number" maxlength="10" class="input" >
+                    <label>PINCODE</label>
+                    <input type="number" class="input" maxlength="10">
+                    <label for="package">CHOOSE PACKAGE</label>
+                    <div>
+                    <select id="package">
+                        <option value="">Select</option>
+                        <option >Netmeds Swasthya</option>
+                        <option value="">Covid RT PCR</option>
+                        <option value="">Aarogyam C</option>
+                        <option value="">Aarogyam B</option>
+                        <option value="">Aarogyam A</option>
+                        <option value="">Aarogyam 1.3</option>
+                        <option value="">Aarogyam X</option>
+                        <option value="">Netmeds A</option>
+                        <option value="">Netmeds B</option>
+                        <option value="">Netmeds C</option>
+                        <option value="">Fever Profile</option>
+                        <option value="">Netmeds Cough-Fever Cold Package</option>
+                        <option value="">Anaemia Profile</option>
+                        <option value="">Thyroid Tests</option>
+                        <option value="">Basic Allergy Package</option>
+                        <option value="">Netmeds Healthy Heart</option>
+                        <option value="">Advanced Heart Care</option>
+                        <option value="">Netmeds Diabetic Checkup</option>
+                        <option value="">Vitamin Tests</option>
+                    </select>
+                    </div>
+                    <input type="checkbox" id="vehicle1" >
+                    <label for="vehicle1"> I agree to Netmeds Terms and Condition.</label>
+                    <div><button>BOOK NOW</button></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="Testes">
+                <h2>Popular Tests</h2>
+                <p>and many more tests and packages<span>@ THE BEST PRICES</span></p>
+                <div id="Popular">
+                <div class="PopularTests">
+                    <img src="https://www.how-to-draw-funny-cartoons.com/images/cartoon-water-6.gif" alt="">
+                    <p>Complete Hemogram</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://media.istockphoto.com/vectors/liver-vector-id1336208022?k=20&m=1336208022&s=612x612&w=0&h=wf65txAWcEzaLPJnlswRVVpCcr9LmcW7-tNwn-wAq_U=" alt="">
+                    <p>Liver Profile</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="data:image/png;base64,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" alt="">
+                    <p>Diabetes</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN8NvrqrPS2cfPOSoNLp-wuJnnjkOsYTqztA&usqp=CAU" alt="">
+                    <p>Lipid Profile</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://thumbs.dreamstime.com/b/thyroid-icon-vector-human-internal-organ-human-internal-organ-vector-stock-image-thyroid-icon-vector-114600241.jpg" alt="">
+                    <p>Thyroid Profile</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qEP2Gw2pA2-HXwRare3HQwLcH-KuiZ3O4Q&usqp=CAU" alt="">
+                    <p>Iron Deficiency</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://images-platform.99static.com//9JL9sOc2J6lToGcs1HIACY3bN2Y=/245x133:749x637/fit-in/500x500/99designs-contests-attachments/58/58135/attachment_58135285" alt="">
+                    <p>Vitamin</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTglQUunA21cesu_Bh9J0mOueXwfuwkULj9ThuwTT4RcKYhUXnV-vuIvQzk_DmX_iZWOcU&usqp=CAU" alt="">
+                    <p>Testosterone</p>
+                </div>
+                <div class="PopularTests">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RIH4hrGDSHXiWpIhDfG3Q9UINzhlMC6fVYABqd5WS5QSdgZoSZ9r5oefM6dU1rYYwts&usqp=CAU" alt="">
+                    <p>Kidney Function Test</p>
+                </div>
+                </div>
+            </div>
+            <h1 style="margin-left: 25px;">Top Selling Packages</h1>
+            <p style="margin-left: 25px;">Choose from the list of top-selling packages tailored for you. We care for your health!</p>
+            <div id="Booknow2">
+            <div class="booknow1">
+              <h2>Netmeds Swasthya</h2>  
+              <p>Book Regular Health Check-up Package Netmeds Swasthya, a Basic Screening Preventive Health Check-up Profile including 59 tests.</p>
+              <del>Rs.3200</del>
+              <span>Rs.1100</span>
+              <div>
+                <button>BOOK NOW</button>
+              </div>
+              <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Aarogyam-1.3.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>Netmeds Shield Pack</h2> 
+                <p>Netmeds Shield Pack helps to protect against a particular danger or risk. It includes a unique diagnostic profile of 56 tests for a comprehensive health evaluation.</p>
+                <del>Rs.3000</del>
+                <span>Rs.900</span>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Aarogyam-1.3.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>Netmeds Health Pack</h2>  
+                <p>Health check-ups are very useful in the early detection of all types of illnesses and risk factors. Simple to understand and less time consuming, our Netmeds Health Pack comprises of 35 parameters of regular tests that have been specially designed keeping your health in mind.</p>
+                <del>Rs.1699</del>
+                <span>Rs.499</span>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Allergy.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>Netmeds Diabetic Checkup</h2>  
+                <p>Meant for people who want to get regular reports to prevent/check their diabetes levels. It includes 49 tests.</p>
+                <del>Rs.3450</del>
+                <span>Rs.899</span>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Diabetes.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>ECHO</h2>  
+                <p>Echocardiography or ECHO, is a painless test that uses sound waves to create moving pictures of your heart.</p>
+                <p>Starting@
+                <span>Rs.1600</span></p>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Fever.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>ECG</h2>  
+                <p>An ECG is a simple and valuable test. Sometimes it can definitely diagnose a heart problem. The electrocardiogram (ECG)...</p>
+                <p>Starting@
+                <span>Rs.250</span></p>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Netmeds-Health-Pack.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>PET Scan</h2>  
+                <p>PET scan may detect the early onset of disease before other imaging tests can</p>
+                <p>Starting@
+                <span>Rs.9600</span></p>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Antenatal_Care.png" alt="">
+            </div>
+            <div class="booknow1">
+                <h2>Ultrasound Whole Abdomen</h2>  
+                <p>Ultrasound is used to study the development of an unborn baby, abdominal and pelvic organs and blood vessels.</p>
+                <p>Starting@
+                <span>Rs.999</span></p>
+                <div>
+                  <button>BOOK NOW</button>
+                </div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/Aarogyam-1.3.png" alt="">
+            </div>
+            </div>
+        </div>
+        <div id="CustomerSpeak3" >
+            <h2>Coustomer Speak</h2>
+            <p>Coustomer Speak Costomer satisfaction is our prime focus. We would like to hear your comments about oue service.</p>
+            <div id="CustomerSpeak2">
+            <div class="CustomerSpeak">
+                <h2>Ram Kumar</h2>
+                <p>Mumbai</p>
+                <p>"
+                    This is the best lab test experience ever! And that too at a very reasonable rate! I highly recommend Netmeds Swasthya package. Value for money!
+                </p>
+            </div>
+            <div class="CustomerSpeak">
+                <h2>Ranjith Singh</h2>
+                <p>New Delhi</p>
+                <p>"
+                    If you want a full body health report that won't cost a bomb but give accurate results, try Netmeds Swasthya Plus! Thyrocare Labs and Netmeds have done a great job on this one!
+                </p>
+            </div>
+            <div class="CustomerSpeak">
+                <h2>Veena Nair</h2>
+                <p>Chennai</p>
+                <p>"
+                    I've done lab tests before. The process seemed so off-putting. But with Netmeds it has been so easy and professional! The phlebotomist took great care when drawing the blood etc. He was very reassuring!
+                </p>
+            </div>
+            </div>
+        </div>
+        <div>
+            <h2 style="margin-left: 30px;">Our Highlights</h2>
+            <div id="HighlightsOur">
+            <div class="HighlightsOur1">
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/diagnostics/pathology.png" alt="">
+                <p>Home Sample Collection</p>
+            </div>
+            <div class="HighlightsOur1">
+                <img style="width: 15%" src="https://png.pngtree.com/png-vector/20220502/ourmid/pngtree-travel-pin-location-with-red-png-image_4561378.png" alt="">
+                <p>2000+ Location Served</p>
+            </div>
+            <div class="HighlightsOur1">
+                <img src="https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg" alt="">
+                <p>NABL,CAP ISO Certified</p>
+            </div>
+            <div class="HighlightsOur1">
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/pathology/75_discount.png" alt="">
+                <p>Upto 80% Discount</p>
+            </div>
+            </div>
+        </div>
+        <div id="LabPartner">
+            <h2>Lab Partner</h2>
+            <p>We provide lab tests and health packages from well-reputed, certified diagnostic labs across the country.</p>
+            <div id="Healthians">
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/radiology/Healthians.jpg" alt="">
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/Diagnostics/2022/thyrocare_newlogo.jpg" alt="">
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/radiology/Niramaya.jpg" alt="">
+            </div>
+            <div id="Neuberg">
+            <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/radiology/Neuberg.jpg" alt="">
+            </div>
+        </div>
+        <div id="WhatsappBook">
+            <div class="class5">
+                <div>
+                <img src="https://www.netmeds.com/images/cms/wysiwyg/health-packages/home/wsp.png" alt="">
+                </div>
+                <div>
+                <p>Book on Whatsapp</p>
+                <h3>8939414619</h3>
+                </div>
+            </div>
+            <div class="class5">
+                <button>
+                    BOOK NOW
+                </button>
+            </div>
+        </div>
+        <div id="certifiedLab" >
+            <p>Ultrasound | Xray | MRI | CT Scan | PET Scan</p>
+            <p><a href="">Certified Labs</a>| Best Price | Assured quality</p>
+        </div>
+        <div id="PanIndia">
+            <div>
+                <img src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg" alt="">
+            </div>
+            <div>
+                <p>Netmeds.com is one of India’s most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers – PAN India.</p></div>
+            </div>
+    </div>
+    <div></div>
+</body>
+</html>
