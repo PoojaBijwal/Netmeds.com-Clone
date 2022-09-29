@@ -1,0 +1,150 @@
+#id{
+    /* border:  1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin: auto;
+    width: 95%;
+}
+.id1{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: auto
+}
+.Pathology{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 45%;
+    margin-left: 10px;
+}
+.Pathology>img{
+    margin: auto;
+ }
+#Detalesform{
+    display: flex; 
+    margin-left: 20px;  
+    margin-top: 10px;
+}
+.input{
+border: 0px;
+width: 350px;
+margin-bottom: 30px;
+}
+#detalesform{
+padding-left: 20px;
+width: 100%;
+}
+.PopularTests{
+ /* width: 10%; */
+ /* border: 1px solid black; */
+ margin-bottom: 30px;
+ display: flex;
+}
+.PopularTests>img{
+width: 20%;
+}
+#Popular{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+}
+#Testes{
+width: 95%;
+margin: auto;
+}
+#Booknow2{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   width: 90%;
+   margin: auto;
+}
+.booknow1>img{
+   width: 40%;
+   margin-left: 150px;
+}
+.booknow1{
+width: 90%;
+border: 1px solid black;
+height: 300px;
+margin-bottom: 20px;
+padding: 10px;
+}
+#CustomerSpeak2{
+margin-left: 30px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 25px;
+width: 70%;
+border: 1px solid;
+margin: auto;
+}
+.CustomerSpeak{
+/* border: 1px solid black; */
+width: 95%;
+}
+#CustomerSpeak3{
+margin-left: 30px;
+}
+#HighlightsOur{
+width: 80%;
+margin: auto;
+/* border: 1px solid black;/ */
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+}
+.HighlightsOur1{
+/* border: 1px solid red; */
+display: flex;
+height: 50px;
+}
+.HighlightsOur1>img{
+width: 15%;
+}
+#LabPartner{
+width: 90%;
+margin: auto;
+border: 1px solid black;
+height: 300px;
+margin-top: 20px;
+}
+#Healthians{
+width: 40%;
+margin: auto;
+border-bottom: 1px solid gray;
+}
+#Healthians>img{
+margin-left: 50px;
+}
+#Neuberg{
+margin-left: 45%;
+margin-top: 10px;
+}
+#WhatsappBook{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+/* border: 1px solid black; */
+width: 90%;
+margin: auto;
+}
+.class5{
+/* border: 1px solid red; */
+display: flex;
+justify-content: flex-end;
+}
+.class5>button{
+width: 50%;
+height: 60px;
+margin: auto
+}
+#certifiedLab{
+width: 90%;
+margin: auto;
+text-align: center;
+border: 1px solid gray;
+}
+#PanIndia{
+display: flex;
+width: 90%;
+margin: auto;
+}
