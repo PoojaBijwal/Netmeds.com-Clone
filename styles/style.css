@@ -1,0 +1,172 @@
+
+body{ 
+ width:80%;
+ margin: auto;
+ margin-top: 20px;
+ background-color: rgb(246,246,247);
+}
+
+*{
+ border-radius: 10px;
+}
+#shiva{
+ border:1px solid rgb(243,243,243);
+ height:500px;
+ width:100%;
+}
+#shiva_slider{
+ border:1px solid  rgb(243,243,243);
+ height:100px;
+ width:720px;
+ margin: 5px;
+ background-color: white;
+}
+
+#shiva_promo{
+ border:1px solid rgb(243,243,243);
+ height:150px;
+ width:350px;
+ margin: 5px;
+ text-align: center;
+ background-color: white;
+
+}
+#shiva_promo>h5{
+ font-size: 18px;
+ font-weight: 510;
+ margin-top: 0px;
+}
+#shiva_promo>h4{
+ font-size: 20px;
+ font-weight: 100;
+ margin-top: -20px;
+}
+#shiva_1{
+ border:1px solid rgb(243,243,243);
+ display: flex;
+}
+#shiva_product{
+ border:1px solid rgb(243,243,243);
+ height:300px;
+ width: 720px;
+ margin: 5px;
+ margin-top: -30px;
+ padding: 5px;
+ background-color: white;
+}
+
+#shiva_product>h5{
+ margin-top: 5px;
+ 
+}
+
+#shiva_2{
+ border:1px solid rgb(243,243,243);
+ display: flex;
+}
+
+#shiva_payment{
+ border: 1px solid rgb(243,243,243);
+ height:250px;
+ width:350px;
+ margin: 5px;
+ padding: 5px;
+ background-color: white;
+}
+
+#shiva_payment>h5{
+ font-size: 18px;
+ font-weight: 100;
+ margin-top: 0px;
+ margin-bottom: 9px;
+}
+
+#shiva_button{
+ border:1px solid red;
+ justify-content: space-between;
+ display: flex;
+}
+
+#shiva_proceed{
+ padding: 5px 25px 5px 25px;
+ margin:10px;
+ border:none;
+ font-size: 20px;
+ background-color: rgb(36,174,177);
+ border-radius: 10px;
+}
+#shiva_proceed:hover{
+ background-color:red;
+ cursor: pointer;
+}
+
+#shiva_payment>p{
+ font-size: 13px;
+ font-weight: 100;
+}
+
+#terms_1{
+ margin:auto;
+ height: 250px;
+ width: 90%;
+ margin-top: 25px;
+}
+
+#terms_1>img{
+ width:100%;
+ height:100%
+}
+
+#terms_1~h1{
+ text-align:center
+}
+
+#terms_2{
+ display: flex;
+}
+
+#terms_2>div:nth-child(1){
+ margin:15px;
+ width:20%;
+ padding: 5px;
+ text-align: justify;
+ font-size: 16px;
+}
+
+#terms_2>div:nth-child(3){
+ margin:15px;
+ width:20%;
+ font-size: 16px;
+ padding: 5px;
+ text-align: center;
+}
+
+#terms_2>div:nth-child(2){
+ margin:15px;
+ margin-left: 20px;
+ width:80%;
+ text-align: justify;
+ padding: 10px;
+}
+
+#terms_2>div:nth-child(3)>img{
+width:45%;
+height: 1%;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+#terms_1~h1{
+ color: rgb(36,174,192);
+}
+
+#shiva_most_selling{
+ border: 1px solid red;
+ width:66%;
+ height:300px;
+}
+
+#shiva~h2{
+ margin-top: -40px;
+ color: rgb(77, 74, 74);
+}
