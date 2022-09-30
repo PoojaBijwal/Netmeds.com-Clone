@@ -4,6 +4,12 @@
            margin: 0px;
            
          }
+         p,h2,h3,h4{
+          font-family:sans-serif;
+         }
+         h2{
+          margin-left: 10px;
+         }
          body{
            background-color: #f3f7fb;  
          }
@@ -24,8 +30,8 @@
             gap: 25px;
             justify-content: center;
             align-items: center;
-            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-            background-color: white;
+            /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+            /* background-color: white; */
         }
         #middle_bar > p{
             font-size: 13px;
@@ -39,7 +45,7 @@
             /* border: 1px solid black; */
         }
         .mySlides {
-            height: 400px; 
+            height: 300px; 
             padding: 20px;
             width: 100%;
             display: none;
@@ -70,7 +76,7 @@
             cursor: pointer;
             height: 10px;
             width: 10px;
-            margin: 10px 1px 0px 0px;
+            margin: 1px 1px 0px 0px;
             background-color: #bbb;
             border-radius: 50%;
             display: inline-block;
@@ -97,17 +103,27 @@
          }
          #Slider_2{
             display: flex;
-            gap: 30px;
+            gap: 20px;
             width: 100%;
-            height: 260px; 
+            height: 100px; 
             padding: 10px;
+            margin: auto;
             margin-top: 30px;
-            border: 1px solid black; 
+            /* border: 1px solid black;  */
            
         }
+        #Slider_2>div{
+          width: 32%;
+          margin: auto;
+          background-color: white;
+          border-radius: 10px;
+          /* border: 1px solid red; */
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
         #Slider_2>div>img{
-            width: 100%;
-            height: 100%;
+            width: 90%;
+            height: 90%;
+            margin-left: 20px;
         }
         
         #Payment_Partner_Offers{
@@ -149,7 +165,7 @@
             margin-top: 25px;
             font-family:sans-serif;
         }
-        #Shop_By_Category{
+        #Personal_Care, #Shop_By_Category,#Grooming,#Health{
             display: flex;
             width: 90%;
             height: 300px;
@@ -157,22 +173,146 @@
             margin: auto;
             margin-top: 40px;
         }
-        #Shop_By_Category>div{
+        #Personal_Care>div,#Shop_By_Category>div,#Grooming>div{
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
             border-radius: 10px;
             padding: 40px;
             background-color: white;
            
         }
-        #Shop_By_Category>div>img{
+        #Personal_Care>div>img,#Shop_By_Category>div>img,#Grooming>div>img{
             width: 100%;
             height: 180px;
+        }
+        
+        #Health>div{
+          width: 100%;
+          height: 280px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          border-radius: 10px;
+          padding: 40px;
+          background-color: white;
+        }
+        #Health>div>img{
+          display: block;
+          margin: auto;
+          width: 70%;
+          height: 100px;
+        }
+        #Health>div>img+h4{
+          margin-top: 70px;
+        }
+        #Grooming>div>img+h4+p{
+          color: #7ca41c;
+          text-align: center;
+          font-size: 14px;
+          font-weight: bolder;
         }
         img+h4{
             font-size: 14px;
             text-align: center;
             margin-top: 20px;
         }
+        #Previous_Orders{
+          width: 100%;
+          height: 200px;
+          display: flex;
+          gap: 100px;
+          margin-top: 20px;
+          /* border: 1px solid red; */
+        }
+        .container{
+          display: flex;
+          gap: 200px;
+          margin-left: 10px;
+        }
+        .order{
+          display: flex;
+          gap: 20px;
+          margin-top: 40px;
+          margin-left: 10px;
+        }
+        .products+div>img{
+          width: 180px;
+          height: 160px;
+        }
+        .products >h2+p{
+          margin-top: 19px;
+          color: #848484;
+          font-size: 15px;
+          margin-left: 10px;
+        }
+        .order>h4{
+          color: #24aeb1;
+          font-size: 13px;
+          margin-top: 10px;
+        }
+        .order>h4+button{
+          background-color: #24aeb1;
+          border: none;
+          border-radius: 50%;
+          padding: 10px 15px;
+          color: white;
+         }
+         .a>h2+p{
+             color: #7ca41c;
+             margin-left: 10px;
+         }
+         .a>h2+p+button{
+          margin-top: 40px;
+          background-color: #24aeb1;
+          border: none;
+          border-radius: 7px;
+          padding: 10px 15px;
+          color: white;
+          margin-left: 10px;
+         }
+         #slider_3{
+          /* max-width: 1000px; */
+           
+           
+           /* border: 1px solid black; */
+       }
+         #slider_3{
+          display: flex;
+          width: 100%;
+          height: 200px;
+          gap: 40px;
+          position: relative;
+          margin: auto;
+          margin-left:3.5%;
+          margin-top: 10px;
+          
+         }
+         
+         #slider_3 > div >img{
+          width: 100%;
+          border-radius: 10px;
+          
+         }
+         .prev1,.next1{
+          cursor: pointer;
+          position: absolute;
+          top:178%;
+          width: auto;
+          margin-top: -22px;
+          padding: 12px 18px;
+          color: grey;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          border-radius: 50%;
+          background-color: white;
+          border: none;
+        }
+        .next1 {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+          border-radius: 50%;
+        }
+        
         
         
        /* .slider_wrap{
