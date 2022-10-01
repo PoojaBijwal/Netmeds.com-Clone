@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+  }
+  body {
+    background-color: #f3f7fb;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  /* login */
+  .login {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    width: 64%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 3px 3px 6px 3px #e0e0e0;
+  }
+  
+  .login_img > img {
+    width: 100%;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 40px;
+    cursor: auto;
+  }
+  
+  .title {
+    padding: 20px;
+  }
+  
+  .sign_txt {
+    font-size: 14px;
+    margin: 15px 0px;
+    width: 350px;
+    line-height: 20px;
+    color: grey;
+  }
+  
+  /* number input */
+  
+  .phone_label {
+    font-weight: bold;
+    font-size: 11px;
+    color: #24aeb1;
+  }
+  
+  #number {
+    border: none;
+    border-bottom: 2px solid rgba(21, 27, 57, 0.04);
+    margin: 5px;
+    width: 80%;
+    font-size: 15px;
+  }
+  
+  #number::placeholder {
+    color: rgb(177, 171, 171);
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  .login_form > button,
+  label {
+    display: flex;
+    padding: 10px 0px;
+  }
+  .login_form input {
+    padding: 2px 5px;
+    margin-bottom: 15px !important;
+  }
+  .login_form input:focus {
+    outline: none;
+  }
+  .otp_btn {
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #24aeb1;
+  }
+  
+  /* +91 Prefix */
+  .prefix {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  /* google  */
+  
+  #auth {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .google_logo,
+  .fb_logo {
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    border: 1px solid rgb(192, 189, 189);
+    width: 120px;
+    font-size: 15px;
+    align-items: center;
+  }
+  
+  .google_logo > img {
+    width: 24px;
+  }
+  
+  .fb_logo > img {
+    width: 24px;
+  }
+  
+  .copy_right {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgba(21, 27, 57, 0.7);
+  }
+  
+  textarea:focus {
+    outline: none;
+  }
+  /* Responsive  */
+  
+  /* @media (max-width: 600px) {
+    .login {
+      flex-direction: column;
+    }
+  } */
