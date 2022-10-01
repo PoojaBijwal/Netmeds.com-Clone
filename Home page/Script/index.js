@@ -169,3 +169,9 @@ function append(data_slider_2){
     });
 
 }
+
+
+
+
+
+let Products = []
