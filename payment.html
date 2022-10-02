@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <h1>Payment-Gateway</h1>
+         <div id="form">
+            <form action="">
+                <h5>CARD NUMBER</h5>                
+                <input type="text" id="cardnum" name="cardnum">
+                <h5>EXPIRY DATE</h5>
+                <input type="date" id="date" name="date">
+                <h5>CVV</h5>
+                <input type="text" id="cvv" name="cvv">
+                <h5>NAME ON CARD</h5>
+                <input type="text" id="name" name="name"></br>
+                <button onclick="payment(event)">MAKE PAYMENT</button>
+            </form>
+        </div>
+        <div id="footer"></div>
+</body>
+</html>
+<script src="payment.js"></script>
