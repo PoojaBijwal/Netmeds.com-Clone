@@ -5,49 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #slider{
-            align-items: center;
-            margin-top:10px;
-            border:2px solid black;
-           height:320px;
-           width:95%;
-           margin:auto;
-           
-           /* background-color: teal; */
-        }
-        #slider img{
-
-            height:100%;
-            width:100%;
-        }
-        #mid{
-            border:2px solid red;
-            height:100%;
-            width:95%;
-            display:flex;
-            justify-content: space-evenly;
-            text-align: center;
-            margin:auto;
-        }
-        #mid>div{
-            box-shadow: 1px 10px 15px -3px;
-        }
-        h1{
-            margin-left:2%;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./Styles/main.css">
 </head>
 <body>
+    
     <div id="slider">
-       <img src="	https://www.netmeds.com/images/category/v1/916/cardiac_care_2.jpg" alt=""/>
+        <div class="mySlides fade">
+            <img src="https://www.netmeds.com/images/category/v1/916/cardiac_care_2.jpg" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1663913184_Skin-Elements_Web_Home_title_1680X320.jpg" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1662576189_Maxirich__wellness_main_banner_web_w45.jpg" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="" alt="">
+        </div>
+
+        <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a> -->
+       </div>
+       <a class="prev" onclick="plusSlides(-1)">❮</a>
+       <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
     </div>
+
     <h1>Popular Categories</h1>
     <div id="mid">
         <div>
             <img src="https://www.netmeds.com/images/category/v1/3848/thumb/personal_care_0.jpg" alt=""/>
-            <h3>Personal care</h3>
+            <a><h3>Personal care</h3></a>
         </div>
         <div>
             <img src="https://www.netmeds.com/images/category/v1/3251/thumb/sexual_wellness_2.jpg" alt=""/>
@@ -65,15 +75,172 @@
             <img src="https://www.netmeds.com/images/category/482/thumb/ayurvedic_1.jpg" alt=""/>
             <h3>Ayurvedic</h3>
         </div>
+        </div>
+        
+        
+        
+    <div id="slide_cs">
+        <!-- <p class="head">World Heart Day</p> -->
+       <div >
+            <img src="https://i.postimg.cc/R0TtJzHz/img1.png"/>
+            <button onclick=" addToCart(event)">Add to Cart</button>
 
-
-
-
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/MZfytgk1/img2.png"/>
+            <button onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div> 
+             <img src="https://i.postimg.cc/2yN30cvx/img3.png"/>
+            <button onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div> 
+             <img src="https://i.postimg.cc/9fGfrPsR/img4.png"/>
+            <button onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/FzC89qZy/img4.png"/>
+            <button onclick=" addToCart(event)">Add to Cart</button>
+        </div>
     </div>
-    <!-- <h1>Netmeds</h1>
-    <input type="url" id="url" placeholder="Enter URL">
-    <button onclick="storeImage(event)">Submit Image</button> -->
+    <a class="prev_s" onclick="plusSlides(-1)">❮</a>
+    <a class="next_s" onclick="plusSlides(1)">❯</a>
+   <div style="text-align:center">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+     <span class="dot" onclick="currentSlide(4)"></span>
+     <span class="dot" onclick="currentSlide(5)"></span>
+     <span class="dot" onclick="currentSlide(6)"></span>
+     <span class="dot" onclick="currentSlide(7)"></span>
+   </div>
+     <div id="slide_cs1">
+        <!-- <p class="head">World Heart Day</p> -->
+       <div >
+            <img src="https://i.postimg.cc/J7YMCK0r/Simg1.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
 
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/cHQhMFzQ/Simg2.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div> 
+             <img src="https://i.postimg.cc/fbsJS5x4/Simg3.png"/>
+            <button>Add to Cart</button>
+        </div>
+        <div> 
+             <img src="https://i.postimg.cc/yx8f1Ffc/Simg4.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/52DN8gL9/Simg5.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+    </div> 
+    <a class="prev_1" onclick="plusSlides(-1)">❮</a>
+    <a class="next_1" onclick="plusSlides(1)">❯</a>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        
+      </div>
+    <div id="slide_cs2">
+       
+       <div >
+            <img src="https://i.postimg.cc/R0TtJzHz/img1.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/MZfytgk1/img2.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div> 
+             <img src="https://i.postimg.cc/2yN30cvx/img3.png"/>
+            <button>Add to Cart</button>
+        </div>
+        <div> 
+             <img src="https://i.postimg.cc/9fGfrPsR/img4.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+        <div>
+            <img src="https://i.postimg.cc/FzC89qZy/img4.png"/>
+            <button  onclick=" addToCart(event)">Add to Cart</button>
+        </div>
+    </div> 
+    <a class="prev_2" onclick="plusSlides(-1)">❮</a>
+    <a class="next_2" onclick="plusSlides(1)">❯</a>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        
+      </div>
+    <div id="slide_cs3">
+      <!-- <p class="head">World Heart Day</p> -->
+     <div >
+          <img src="https://i.postimg.cc/8k3SkwR4/Bimg1.png"/>
+          <button  onclick=" addToCart(event)">Add to Cart</button>
+
+      </div>
+      <div>
+          <img src="https://i.postimg.cc/XYxZzT5x/Bimg2.png"/>
+          <button  onclick=" addToCart(event)">Add to Cart</button>
+      </div>
+      <div> 
+           <img src="https://i.postimg.cc/63CtDvSw/Bimg3.png"/>
+          <button>Add to Cart</button>
+      </div>
+      <div> 
+           <img src="https://i.postimg.cc/50WMqttr/Bimg4.png"/>
+          <button  onclick=" addToCart(event)">Add to Cart</button>
+      </div>
+      <div>
+          <img src="https://i.postimg.cc/445TVsR8/Bimg5.png"/>
+          <button  onclick=" addToCart(event)">Add to Cart</button>
+      </div>
+  </div> 
+    <a class="prev_3" onclick="plusSlides(-1)">❮</a>
+    <a class="next_3" onclick="plusSlides(1)">❯</a>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    
+  </div>
+  <h1>Health Concerns</h1>
+  <div id="btm">
+      <div>
+          <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/lung-care.jpg?v=1" alt=""/>
+          <h3>Lung care</h3>
+      </div>
+      <div>
+          <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/weight-care.jpg?v=1" alt=""/>
+          <h3>Weight Care</h3>
+      </div>
+      <div>
+          <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/women-s-care.jpg?v=1" alt=""/>
+          <h3>women's Care</h3>
+      </div>
+      <div>
+          <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/bone-and-joint-pain.jpg?v=1" alt=""/>
+          <h3>Bone And Joint Pain </h3>
+      </div>
+      <div>
+          <img src="https://www.netmeds.com/images/cms/wysiwyg/category/v2/img/cold-and-fever.jpg?v=1" alt=""/>
+          <h3>Cold And Fever</h3>
+      </div>
+      </div>
+    
+  
+
+
+    
 </body>
 </html>
-<!-- <script src="wellness.js"></script> -->
+<script src="wellness.js"></script>
