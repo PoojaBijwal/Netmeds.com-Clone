@@ -39,15 +39,18 @@
         }
         #Slider_1{
            /* max-width: 1000px; */
+            width: 100%;
+            height: 300px;
             position: relative;
             margin: auto;
             
-            /* border: 1px solid black; */
+            /* border: 1px solid black;  */
         }
         .mySlides {
             height: 300px; 
-            padding: 20px;
+            padding: 10px;
             width: 100%;
+            height: 100%;
             display: none;
             
           }
@@ -194,10 +197,10 @@
            
         }
         #Shop_By_Category>div{
-          width: 120%;
+          width: 100%;
           /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
           border-radius: 10px;
-          padding: 60px;
+          padding: 20px;
           background-color: white;
           /* border: 1px solid black;  */
         }
@@ -205,10 +208,17 @@
             width: 100%;
             height: 180px;
         }
+        /* .f>img{
+          width: 140%;
+          height: 80%;
+          border: 1px solid black;
+        } */
         
           #Shop_By_Category>div>img{
             width: 100%;
             height: 180px;
+            display: block;
+             margin: auto;
           }
 
           #shop{
@@ -325,7 +335,7 @@
             height: 200px;
             gap: 40px;
             position: absolute;
-            top: 420%;
+            top: 434%;
             margin: auto;
             margin-left:3.5%;
             margin-top: 40px;
@@ -340,7 +350,7 @@
          .prev1,.next1{
           cursor: pointer;
           position: absolute;
-          top:183%;
+          top:198%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -362,7 +372,7 @@
          .prev2,.next2{
           cursor: pointer;
           position: absolute;
-          top:440%;
+          top:457%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -385,7 +395,7 @@
          .prev3,.next3{
           cursor: pointer;
           position: absolute;
-          top:250%;
+          top:260%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -407,7 +417,7 @@
         .prev4,.next4{
           cursor: pointer;
           position: absolute;
-          top:319%;
+          top:332%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -429,7 +439,7 @@
         .prev5,.next5{
           cursor: pointer;
           position: absolute;
-          top:495%;
+          top:507%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -451,7 +461,7 @@
         .prev6,.next6{
           cursor: pointer;
           position: absolute;
-          top:585%;
+          top:600%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -473,7 +483,7 @@
         .prev7,.next7{
           cursor: pointer;
           position: absolute;
-          top:645%;
+          top:660%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -495,7 +505,7 @@
         .prev8,.next8{
           cursor: pointer;
           position: absolute;
-          top:975%;
+          top:987%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -517,7 +527,7 @@
         .prev9,.next9{
           cursor: pointer;
           position: absolute;
-          top:1035%;
+          top:1045%;
           width: auto;
           margin-top: -22px;
           padding: 12px 18px;
@@ -565,7 +575,7 @@
           width: 100%;
           height:200px;
           display: flex;
-          gap: 1040px;
+          gap: 1030px;
           background-color: #24aeb1;
           margin-top: 40px;
           position: relative;
@@ -574,7 +584,7 @@
           width: 100%;
           height:200px;
           display: flex;
-          gap: 910px;
+          gap: 895px;
           background-color: #24aeb1;
           margin-top:280px;
           position: relative;
@@ -638,7 +648,7 @@
           display: flex;
           gap: 20px;
           position: absolute; 
-          top: 225%;
+          top: 238%;
           margin: auto;
           margin-left: 2%;
           margin-right: 2%;
@@ -648,7 +658,7 @@
           display: flex;
           gap: 20px;
           position: absolute;
-          top: 295%; 
+          top: 309%; 
           margin: auto;
           margin-left: 2%;
           margin-right: 2%;
@@ -659,7 +669,7 @@
           height: 45%;
           gap: 10px;
           position: absolute;
-          top: 625%; 
+          top: 637%; 
           margin: auto;
           margin-left: 2%;
           margin-right: 2%;
@@ -670,7 +680,7 @@
           height: 40%;
           gap: 10px;
           position: absolute;
-          top: 728%; 
+          top: 740%; 
           margin: auto;
           margin-left: 0%;
           /* margin-right: 3%; */
@@ -682,7 +692,7 @@
           height: 40%;
           gap: 10px;
           position: absolute;
-          top: 1020%; 
+          top: 1032%; 
           margin: auto;
           margin-left: 0.5%;
           

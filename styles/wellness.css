@@ -42,11 +42,10 @@ h1{
   grid-column-gap: 500px;
    margin: 5px;
   border-radius: 7px;
-  height:350px;
+  height:380px;
   margin-top :40px;
   
- 
-}
+ }
 
 #slide_cs img{
     height:100%;
@@ -176,7 +175,7 @@ button{
   .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 65%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -201,7 +200,7 @@ button{
   .prev_s, .next_s {
   cursor: pointer;
   position: absolute;
-  top: 170%;
+  top: 190%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -228,7 +227,7 @@ button{
       .prev_1, .next_1 {
   cursor: pointer;
   position: absolute;
-  top: 220%;
+  top: 280%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -252,7 +251,7 @@ button{
 .prev_2, .next_2 {
   cursor: pointer;
   position: absolute;
-  top: 370%;
+  top: 360%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -276,7 +275,7 @@ button{
   .prev_3, .next_3 {
       cursor: pointer;
       position: absolute;
-      top: 470%;
+      top: 450%;
       width: auto;
       margin-top: -22px;
       padding: 16px;
