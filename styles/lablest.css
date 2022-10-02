@@ -1,26 +1,79 @@
-#id{
-    /* border:  1px solid red; */
+#id {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 2fr 1fr;
+    padding: 40px;
+    background-color: #e0f8ff;
     gap: 15px;
-    margin: auto;
-    width: 95%;
-}
-.id1{
-    /* border: 1px solid black; */
-    width: 80%;
-    height: auto
-}
-.Pathology{
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    width: 45%;
-    margin-left: 10px;
-}
-.Pathology>img{
-    margin: auto;
- }
+    letter-spacing: 1px;
+  }
+
+  #id img {
+    width: 100%;
+  }
+  #id div:nth-of-type(2) {
+    padding: 20px 40px 20px 20px;
+    background-color: #fff;
+    justify-content: space-between;
+  }
+  #id button {
+    width: 40%;
+  }
+  #id p {
+    font-size: 13px;
+    font-weight: normal;
+    margin: 15px 0px;
+  }
+  #id label {
+    color: rgb(50, 174, 177);
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #id input[type="text"],
+  #id input[type="number"] {
+    border: none;
+    padding: 5px 7px;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+  }
+  #id input:focus {
+    outline: none;
+  }
+  
+  #id select {
+    width: 100%;
+    padding: 7px;
+    background-color: #f7f7f7;
+    border: none;
+  }
+  #id button {
+    border: none;
+    border-radius: 5px;
+    width: 42%;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 1px 1px 6px 1px #cfcfcf;
+  }
+  #id button img {
+    width: 20%;
+    font-size: 17px;
+    margin-right: 10px;
+    color: rgb(50, 174, 177);
+  }
+  #package option {
+    font-size: 15px;
+  }
+  #id label + button {
+    width: 50%;
+    text-align: center;
+    margin: 10px 25%;
+    color: white;
+    background-color: rgb(50, 174, 177);
+    font-size: 16px;
+  }
 #Detalesform{
     display: flex; 
     margin-left: 20px;  
@@ -28,7 +81,7 @@
 }
 .input{
 border: 0px;
-width: 350px;
+width: 250px;
 margin-bottom: 30px;
 }
 #detalesform{
@@ -74,13 +127,13 @@ margin-left: 30px;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 25px;
-width: 70%;
-border: 1px solid;
+width: 80%;
 margin: auto;
 }
 .CustomerSpeak{
-/* border: 1px solid black; */
+border: 1px solid black;
 width: 95%;
+padding: 20px;
 }
 #CustomerSpeak3{
 margin-left: 30px;
@@ -104,9 +157,11 @@ width: 15%;
 #LabPartner{
 width: 90%;
 margin: auto;
-border: 1px solid black;
-height: 300px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+height: auto;
+padding: 20px;
 margin-top: 20px;
+margin-bottom: 20px;
 }
 #Healthians{
 width: 40%;
@@ -123,7 +178,7 @@ margin-top: 10px;
 #WhatsappBook{
 display: grid;
 grid-template-columns: repeat(2,1fr);
-/* border: 1px solid black; */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 width: 90%;
 margin: auto;
 }
@@ -148,3 +203,18 @@ display: flex;
 width: 90%;
 margin: auto;
 }
+h2{
+   margin: 10px 0px;
+}
+h1{
+    margin: 10px 0px;
+ }
+ p{
+    line-height: 1.5;
+ }
+ #testes>p{
+    margin-bottom: 30px;
+ }
+ #CustomerSpeak3>p{
+    margin-bottom: 30px;
+ }
