@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="icon" type="image/" href="https://www.netmeds.com/assets/global/apple-touch-icon-48x48.png">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/14e21b1c67.js" crossorigin="anonymous" defer></script>
+  <link rel="stylesheet" href="./styles/login.css">
+  <link rel="stylesheet" href="./styles/navbar-footer.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div id="navbar">
+
+  </div>
+  <nav id="nav1"></nav>
+  <nav id="nav2"></nav>
+
+  <main>
+    <div class="login">
+      <div class="login_img">
+        <img src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png" alt="" />
+      </div>
+      <div class="content">
+        <div class="title">
+          <h2>Sign In / Sign Up</h2>
+          <p class="sign_txt">
+            Sign up or Sign in to access your orders, special offers, health
+            tips and more!
+          </p>
+          <div class="login_form">
+            <label for="" class="phone_label">PHONE NUMBER</label>
+            <span class="prefix">+91 |</span>
+            <input type="tel" name="" id="number" placeholder="Enter your mobile no" />
+            <button type="submit" class="otp_btn">GET OTP</button>
+          </div>
+
+          <div id="auth">
+            <!-- google signin -->
+
+            <div class="google_logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png"
+                alt="">
+              <span>Google</span>
+            </div>
+
+            <!-- fb siginin -->
+            <div class="fb_logo">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCbqVNMMWJANxmYzxEB_PNB76oHAf6FAieRGAD1C3mdeacAnWgOF_QrN_A0E1vWW42_mI&usqp=CAU"
+                alt="">
+              <span>Facebook</span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="copy_right">
+      <p>By continuing you agree to our Terms of service
+        and Privacy & Legal Policy.</p>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <div id="footer"></div>
+
+ 
+</body>
+
+</html>
+<script src="./scripts/login.js" type="module"></script>
+<!-- <script src="./JS/footer.js" type="module">
+  import footer from "./js/footer.js" 
+  let container = document.getElementById("footer").innerHTML = footer()
+  console.log(footer)
+</script> -->

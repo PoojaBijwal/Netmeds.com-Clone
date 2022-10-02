@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 0.5px;
+  }
+  nav {
+    background-color: rgb(50, 174, 177);
+  }
+  #top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    background-color: inherit;
+    z-index: 1;
+    width: 100%;
+  }
+  #top img{
+    /* border: 1px solid red; */
+    width: 65%;
+    
+    
+  }
+  #top div {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 44%;
+    /* border: 1px solid brown; */
+    
+  }
+  #top div p {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #top > p {
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  #top input {
+    background-color: inherit;
+    border: none;
+    flex-grow: 1;
+    padding: 6px 10px;
+  }
+  #top input:focus {
+    outline: none;
+  }
+  #line {
+    margin-left: 10px;
+    font-size: 21px !important;
+    color: #b3afaf;
+    font-weight: normal !important;
+  }
+  #zipCode {
+    color: rgb(50, 174, 177);
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #middle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px 10% 12px;
+    margin-top: 110px;
+    /* border: 1px solid red; */
+  }
+  /* 87.2 */
+  #middle p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d6efef;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #middle img {
+    height: 45px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  span + i {
+    margin-left: 7px;
+  }
+  
+  #bottom {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  #bottom a {
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    margin: 14px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  
+  footer {
+    padding: 10px 30px;
+    background-color: #fff;
+  }
+  footer a {
+    cursor: pointer;
+  }
+  footer img {
+    float: left;
+    height: 45px;
+    margin-right: 20px;
+  }
+  footer section {
+    padding: 30px 8%;
+  }
+  #grey-para {
+    color: #90888c;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  footer section:nth-of-type(2),
+  footer section:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer section:nth-of-type(2) div {
+    width: 20%;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer li {
+    margin: 12px 0px;
+    font-size: 13.5px;
+    cursor: pointer;
+  }
+  footer div p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #second-para {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 140%;
+    margin: 10px 0;
+  }
+  footer section:nth-of-type(3) {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  footer button {
+    text-align: left;
+    width: 80%;
+    padding: 10px 10px;
+    color: white;
+    margin: 10px 10%;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  footer hr {
+    width: 94%;
+    margin: 0px auto;
+    border: none;
+    border-top: 1px solid rgb(202, 201, 201);
+  }
+  button i {
+    font-size: 30px;
+    float: left;
+    margin-right: 10px;
+    color: #c4c4c4;
+    border: 1px solid blue;
+  }
+  #middle p {
+    position: relative;
+  }
+  .drop{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    line-height: 28px;
+    padding: 10px 5px 10px 10px;
+    box-shadow: 1px 1px 10px 1px #cfcfcf;
+    font-size: 12px;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .display {
+    display: none;
+  }
+  
+  #inp-arrow {
+    border-bottom: 1px solid rgb(179, 179, 179);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #inp-arrow input {
+    border: none;
+    width: 90%;
+  }
+  #inp-arrow input {
+    outline: none;
+  }
+  #inp-arrow i {
+    color: rgb(50, 174, 177);
+  }
+  #middle a {
+    color: inherit;
+    text-decoration: none;
+  }
+  #middle a:hover {
+    color: rgb(73, 73, 73);
+  }
+  
+.drop :hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.drop p  span :hover{
+    background-color: #000;
+}
+#appstore{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+#search{
+    /* border: 1px solid red; */
+    width: 250%;
+}
