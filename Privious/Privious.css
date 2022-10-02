@@ -1,0 +1,42 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#emptycard>img{
+    width: 50%;
+    margin: auto;
+    margin-left: 20%;
+}
+#Priviouspageid1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+#emptycard{
+    width: 100%;
+}
+#Priviouspageid1>#Priviouspageid2{
+    width: 35%;
+    border: 1px solid;
+    justify-content: end;
+    height: 10%;
+    padding: 10px;
+    background-image: url(https://www.netmeds.com/msassets/images/don_t_have_a_prescription.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position:right top;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+div>p,h2>span{
+    font-size: small;
+    font-weight: normal;
+    line-height: 0px;
+}
+#Orderwithin2{
+    display: flex;
+}
+#Orderwithin1{
+    display: flex;
+    justify-content: space-between;
+}
