@@ -4,7 +4,7 @@
            margin: 0px;
            
          }
-         p,h2,h3,h4{
+         p,h2,h3,h4,h5,li{
           font-family:sans-serif;
          }
          h2{
@@ -160,6 +160,9 @@
             color:#8e8897;
             font-family: sans-serif;
            
+        }
+        li{
+          color:#8e8897;
         }
         h2{
             margin-top: 25px;
