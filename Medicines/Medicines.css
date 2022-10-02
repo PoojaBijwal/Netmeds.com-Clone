@@ -1,0 +1,504 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: ProximaNovaLight,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background-color: #e9ecef;
+}
+#alphabet{
+    width: 70%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#alphabet>#alphabetborder{
+  display: grid;
+  grid-template-columns: repeat(28,1fr);
+  gap: 0px;
+}
+#alphabet>:first-child{
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+#a_word{
+    width: 98%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    background-color: white;
+}
+#b_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#c_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#d_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#e_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#f_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#g_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#h_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#i_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#j_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#k_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#l_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#m_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#n_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#o_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#p_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#q_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#r_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#s_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#t_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#u_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#v_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#w_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#x_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#y_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#z_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+#all_word{
+    width: 98%;
+    text-align: center;
+    background-color: white;
+}
+
+#alphabet>:first-child>:nth-child(2){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(3){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(4){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(5){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(6){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(7){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(8){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(9){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(10){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(11){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(12){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(13){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(14){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(15){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(16){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(17){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(18){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(19){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(20){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>:nth-child(21){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(22){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(23){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(24){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(25){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(26){
+    margin-left: 25px;
+}
+#alphabet>:first-child>:nth-child(27){
+    margin-left: 25px;
+}
+
+#alphabet>:first-child>div{
+    font-size: 14px;
+}
+.showlist{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist5{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist6{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist7{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist8{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist9{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist10{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist11{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist12{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist13{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist14{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist15{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist16{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist17{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist18{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist19{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist20{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+.showlist21{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.showlist.flag{
+display: none;
+}
+.showlist1.flag{
+display: none;
+}
+.showlist2.flag{
+display: none;
+}
+.showlist3.flag{
+display: none;
+}
+.showlist4.flag{
+display: none;
+}
+.showlist5.flag{
+display: none;
+}
+.showlist6.flag{
+display: none;
+}
+.showlist7.flag{
+display: none;
+}
+.showlist8.flag{
+display: none;
+}
+.showlist9.flag{
+display: none;
+}
+.showlist10.flag{
+display: none;
+}
+.showlist11.flag{
+display: none;
+}
+.showlist12.flag{
+display: none;
+}
+.showlist13.flag{
+display: none;
+}
+.showlist14.flag{
+display: none;
+}
+.showlist15.flag{
+display: none;
+}
+.showlist16.flag{
+display: none;
+}
+.showlist17.flag{
+display: none;
+}
+.showlist18.flag{
+display: none;
+}
+.showlist19.flag{
+display: none;
+}
+.showlist20.flag{
+display: none;
+}
+.showlist21.flag{
+display: none;
+}
+#alphabet_output p:first-child{
+font-size: 16px;
+margin-bottom: 0px;
+color: rgb(59, 59, 59);
+}
+#medicinesid1{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #24AEB1;
+}
+#medicinesid2{
+    width: 70%;
+    margin: auto;
+    color: #24AEB1;
+}
+#medicinesid1>p>a{
+    color: #24AEB1;
+    font-size: small;
+}
