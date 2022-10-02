@@ -1,12 +1,12 @@
-import footer from "./footer.js"
-   import navbar from "./navbar.js"
+// import footer from "./components/footer.js"
+//    import navbar from "./navbar.js"
   // import { footer } from "./JS/footer.js";
-  let container = document.getElementById("footer");
-  container.innerHTML = footer();
-  let cont = document.getElementById("navbar")
-  cont.innerHTML = navbar()
-  console.log(navbar())
-  // console.log(container);
+  // let container = document.getElementById("footer");
+  // container.innerHTML = footer();
+  // let cont = document.getElementById("navbar")
+  // cont.innerHTML = navbar()
+  // console.log(navbar())
+  // // console.log(container);
 
 
 let inp = document.querySelector("#number");
