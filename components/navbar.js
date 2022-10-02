@@ -99,8 +99,9 @@ function navbar(){
     <nav id="nav2"><section id="middle">
         <p class="drop-p">
             <span><img src="https://www.netmeds.com/assets/version1663621997/gloryweb/images/icons/medicine.svg" alt="Medicine"></span>
-            Medicine<i class="fa fa-caret-down" aria-hidden="true"></i>
-<span class="drop display">- All Medicines<br>- Previously Orderd<br>- All Products</span>
+            <a href="../Medicines/Medicines.html">Medicine</a>
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+            <span class="drop display">- All Medicines<br>- Previously Orderd<br>- All Products</span>
         </p>
         <p>
             <span><img src="https://www.netmeds.com/assets/gloryweb/images/icons/wellness.svg" alt="Wellness"></span>
