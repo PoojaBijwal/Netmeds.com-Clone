@@ -160,13 +160,108 @@ margin-bottom: 15px;
  color: rgb(36,174,192);
 }
 
-#shiva_most_selling{
- border: 1px solid red;
- width:66%;
- height:300px;
-}
+
 
 #shiva~h2{
  margin-top: -40px;
  color: rgb(77, 74, 74);
+}
+
+.mySlides>img{
+ height: 110px;
+ width:100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 19%;
+  width: 37%;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#shiva_most_selling>div>img{
+ width: 70%;
+ height:45%;
+ padding-left: 20px;
+ margin-bottom: -10px;
+}
+#shiva_most_selling>div{
+ border-radius: 5px;
+ width:25%;
+ border:1px solid red;
+ height:93%;
+ padding: 7px;
+ margin: 5px;
+ 
+}
+#shiva_most_selling{
+ border: 1px solid red;
+ width:66%;
+ height:320px;
+ display: flex;
+ flex-wrap:wrap;
+}
+#shiva_most_selling>div>h4{
+ color: red;
+ margin-top: -10px;
+ font-size: large;
+}
+
+#shiva_most_selling>div>h5{
+ text-decoration-line: line-through;
+ margin-top: -10px;
+}
+
+#shiva_most_selling>div>button{
+ width:100%;
+ padding:5px;
+ font-size: larger;
+ border:none;
+background-color: rgb(36,174,177);
+}
+
+#shiva_most_selling>div>h3{
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.Addingcart:hover{
+  cursor: pointer;
+}
+
+#form{
+  border:1px solid red;
+  margin:auto;
+  width:40%;
+  padding: 30px;
+}
+#form input{
+  width:90%;
+  margin:auto;
+  margin-bottom: 10px;
+  margin-top: -50px;
+  padding: 5px;
+}
+
+#form button{
+  width:93%;
+  margin:auto;
+  padding: 5px;
+  font-size: large;
+  margin-top: 10px  ;
+}
+#form button:hover{
+  background-color: rgb(36,174,177);
 }
