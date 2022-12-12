@@ -1,7 +1,7 @@
-Nedmeds.com Clone
+<h1>Nedmeds.com Clone</h1>
 Netmeds.com is one of India's most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers – PAN India. 
 https://heartfelt-profiterole-6effcb.netlify.app
-<h1>Tech Stack</>
+<h2>Tech Stack</h2>
 
 HTML |
 CSS |
